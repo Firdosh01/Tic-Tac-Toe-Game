@@ -22,19 +22,20 @@ body{
     top: 3rem;
     left: 50%;
     transform: translateX(-50%);
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.25);
     border-radius: 1rem;
     padding: 0.5rem 3rem ;
     text-align: center;
-    color: black;
+    color: white;
 
 }
 .tic-tac-toe{
-    /* margin-top: 100px; */
     width: 90%;
     max-width: 20rem;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.15);
     border-radius: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.25);
     padding: 2rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -49,31 +50,31 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: black;
+    color: white;
     font-size: 2rem;
 
 }
 .box1, .box2, .box4, .box5{
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
 }
 
 .box3, .box6{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
 }
 .box7, .box8{
-    border-right: 1px solid  black;
+    border-right: 1px solid  white;
 }
 
 .btn{
-    color: black;
+    color: white;
     position: absolute;
     bottom: 3rem;
     left: 50%;
     transform: translateX(-50%);
     bottom: 3rem;
-    background-color: white;
-    border: none;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.25);
     border-radius: 1rem;
     padding: 0.5rem 3rem ;
     display: flex;
